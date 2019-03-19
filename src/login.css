@@ -1,0 +1,70 @@
+.login-cardbox {
+    margin: 50px auto 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+    height: 420px;
+    width: 350px;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 23px 0px rgba(0, 0, 0, 0.22);
+    -moz-box-shadow: 0px 0px 23px 0px rgba(0, 0, 0, 0.22);
+    box-shadow: 0px 0px 23px 0px rgba(0, 0, 0, 0.22);
+    border-radius: 6px;
+}
+
+.login-img-logo {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 90px;
+    width: 90px;
+    opacity: 0.9;
+    align-self: center;
+}
+
+.logo-company {
+    font-size: 12px;
+    line-height: 15px;
+    color: gray;
+}
+
+
+.login-container {
+    margin-top: 20px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login-cardbox-links {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.login-cardbox-links>a,
+.login-cardbox-links>span>a {
+    text-decoration: none;
+    color: #0070c9;
+    font-size: 0.9em;
+    font-family: 'Open Sans';
+    line-height: 30px;
+}
+
+.login-error-message {
+    color: rgb(255, 47, 47);
+}
+
+
+@media screen and (max-width: 400px) {
+
+    .login-cardbox {
+        margin: 50px 10px 20px 10px;
+    }
+
+    .login-cardbox {
+        width: auto;
+        height: auto;
+    }
+}
